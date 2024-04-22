@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pER-iT-DSi"/>
+                        <viewControllerLayoutGuide type="bottom" id="qMy-BJ-uAd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="backgound" translatesAutoresizingMaskIntoConstraints="NO" id="doP-Dr-Sgj">
+                                <rect key="frame" x="1" y="0.0" width="391" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-honeymoon-app" translatesAutoresizingMaskIntoConstraints="NO" id="fYB-6y-ZPr">
+                                <rect key="frame" x="56.666666666666657" y="361.66666666666669" width="280" height="129"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fYB-6y-ZPr" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="0eT-PI-IM9"/>
+                            <constraint firstItem="fYB-6y-ZPr" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="3bY-Jn-Bpj"/>
+                            <constraint firstItem="doP-Dr-Sgj" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="Amw-Vn-KeA"/>
+                            <constraint firstItem="qMy-BJ-uAd" firstAttribute="top" secondItem="doP-Dr-Sgj" secondAttribute="bottom" id="QPe-Ph-ncH"/>
+                            <constraint firstAttribute="trailing" secondItem="doP-Dr-Sgj" secondAttribute="trailing" id="VBo-AI-x7N"/>
+                            <constraint firstItem="doP-Dr-Sgj" firstAttribute="top" secondItem="pER-iT-DSi" secondAttribute="bottom" id="gx4-SU-WoL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49.618320610687022" y="-28.169014084507044"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backgound" width="2048" height="2049"/>
+        <image name="logo-honeymoon-app" width="280" height="129"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
